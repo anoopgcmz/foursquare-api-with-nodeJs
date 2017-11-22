@@ -1,0 +1,12 @@
+<% include partials/header %>
+    <h1><%=title %></h1>
+    <form action="/forms" method="post">
+     	<label>Search Query</label><br>
+     	<input type="text" name="searchQuery"><br>
+     	<label>Place</label><br>
+     	<input type="text" name="searchPlace"><br>
+     	<input type="submit" name="searchSubmit" value="Search">
+
+	</form>   
+  
+<% include partials/footer %>

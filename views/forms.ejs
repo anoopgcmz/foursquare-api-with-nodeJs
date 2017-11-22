@@ -1,0 +1,13 @@
+<% include partials/header %>
+    <h1><%=title %></h1>  
+    <a href="/">More Search</a> 
+    <h3>Search For <%=searchitem%> at <%=place %></h3>
+     <ul>
+         <% usersnew.forEach(function(users){ %>
+            <% for(var i=0; i < users.response.groups[0].items.length; i++) { %>
+            <li>  
+            <%= users.response.groups[0].items[i].venue.name%></li>  
+    
+            <% }}) %>
+        </ul>   
+<% include partials/footer %>
