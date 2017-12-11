@@ -10,6 +10,7 @@ Go to Index.js page paste the `CLIENTIDKEY` and `CLIENTSECRETKEY` in the respect
 type `npm install` <br>
 After the installation type `node index` ith will show server running in the terminal console <br>
 Got to browser type `localhost:3000` <br>
-thats all its up and running
-# happyCoding
+thats all its up and running  <br>
+
+happyCoding
 
